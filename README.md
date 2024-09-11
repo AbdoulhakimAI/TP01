@@ -175,3 +175,21 @@ Exemple:
 | 4 | 6 |
 | 5 | 2 |
 | Total | 20 |
+
+
+
+
+
+# comment former une branche github
+git branch
+git branch exo_1
+git branch
+git checkout main 
+git pull 
+git merge exo-1 ca donne tout les changements de exo-1 a main (qui est la branche ou on est)
+git checkout exo-1
+git merge main(add main a exo)
+git commit c sur nimporte quelle branche
+git add . ca donne tous les changements
+
+git pull pour les coopiets pour mettre a jour
