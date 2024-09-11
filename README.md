@@ -192,4 +192,4 @@ git merge main(add main a exo)
 git commit c sur nimporte quelle branche
 git add . ca donne tous les changements
 
-git pull pour les coopiets pour mettre a jour
+git pull pour les coopiets pour mettre a jour 

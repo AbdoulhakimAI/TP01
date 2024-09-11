@@ -1,10 +1,7 @@
 # TODO: Créer un script permettant le formattage du livre des records des JO.
 
-country = input("De quelle nationalité est l'athlète ? ")
+#TODO: pour la categorie si c nul comment fait on pour fixer une valeur?
 
-athlete = input("Quel est le nom de l'athlete ?")
-date = input("Quelle était la date du record ?")
-discipline = input("Quelle est la discipline ?")
 
 #exercice 1 alexa
 country = input("De quelle nationalité est l'athlète ? ")
