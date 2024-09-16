@@ -4,12 +4,11 @@
 
 
 #exercice 1 alexa
-country = input("De quelle nationalité est l'athlète ? ")
-athlete = input("C'est quoi le nom de l'athlète?")
-date = input("Quelle est la date du record?")
-discipline= input("C'est quoi sa discipline?")
-catégorie= input("Dans quelle catégorie spécifiquement?")
-record= input("Quel est son record?")
-
-
-
+country =str(input("De quelle nationalité est l'athlète ? "))
+athlete = str(input("C'est quoi le nom de l'athlète?"))
+date = str(input("Quelle est la date du record?"))
+sport= str(input("C'est quoi sa discipline?"))
+catégorie= str(input("Dans quelle catégorie spécifiquement?"))
+record= str(input("Quel est son record?"))
+print("\nNouveau Record:\n--------------------\n{date} - {sport} - {category}:\n\t{athlete} ({country}) - {record}\n")
+        

@@ -7,4 +7,5 @@ angle = float(input("Angle de lancement (en degrés):"))
 gravitational_constant=9.8
 distance=((speed**2)*(math.sin(math.radians(2*angle))))/gravitational_constant
 
-print("La distance maximale en x est de", abs(round(distance,2)))
+distance=abs(round(distance,2))
+print("Distance parcourue: {distance}m\n")

@@ -120,7 +120,7 @@ Pour une cérémonie d'ouverture en grandes pompes, le comité d'organisation de
 Consignes: 
 - Demander le pourcentage de batterie du bateau
 - Calculer la distance possible en suivant les règles suivantes: 
-  - Entre 50% et 100% de batterie, chaque pourcentage équivaut à 2km
+  - Entre 50% eourcentage équivaut à t 100% de batterie, chaque p2km
   - Entre 25% et 50% de batterie, chaque pourcentage équivaut à 0,5km
   - Entre 10% et 25% de batterie, chaque pourcentage équivaut à 1km
   - Entre 5% et 10% de batterie, chaque pourcentage équivaut à 2.5km
