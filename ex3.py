@@ -8,4 +8,4 @@ gravitational_constant=9.8
 distance=((speed**2)*(math.sin(math.radians(2*angle))))/gravitational_constant
 
 distance=abs(round(distance,2))
-print("Distance parcourue: {distance}m\n")
+print(f"Distance parcourue: {distance}m\n")

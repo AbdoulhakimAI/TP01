@@ -11,7 +11,7 @@ n_filtre= water_quantity*nombre_de_filtre/5
 n_light= water_quantity*nombre_lampes/5
 Kg_Chlorine= water_quantity*quantité_chlore/5
 
-print("Voici les éléments requis pour assainir {water_quantity}L d'eau:\n"
-     "\t- Filtre(s) : {n_filter}\n"
-     "\t- Lampe(s) UV : {n_light}\n"
-     "\t- Chlore : {kg_chlorine}kg\n")
+print(f"""Voici les éléments requis pour assainir {water_quantity}L d'eau:\n
+        \t- Filtre(s) : {n_filtre}\n
+        \t- Lampe(s) UV : {n_light}\n
+        \t- Chlore : {Kg_Chlorine}kg\n""")
