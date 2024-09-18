@@ -8,8 +8,7 @@ set1=set(code_medals)
 set2=set("G" +"S" +"B")
 
 if set1 == set2:
- print(f"""\n- {code_medals.count}("S") OR\n- {code_medals.count}("B") Argent\n- {code_medals.count}('G')Bronze\n""")
+ print(f"""(\n- {code_medals.count("G")}) Or\n- {code_medals.count("S")} Argent\n- {code_medals.count("B")} Bronze\n""")
 
-else: 
+else:      
     print("Ceci est une chaîne invalide. Veuillez entrer une chaîne valide")
-#github abdul
