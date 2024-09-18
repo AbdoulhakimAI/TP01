@@ -1,15 +1,12 @@
 # TODO: Créer un script permettant le formattage du livre des records des JO.
 
-#TODO: pour la categorie si c nul comment fait on pour fixer une valeur?
+country = input("De quelle nationalité est l'athlète ?")
+athlete = input("Quel est son nom ?")
+date = input("Date du record ?")
+sport= input("Dans quelle discipline ?")
+category= input("Dans une catégorie spécifique ?")
+record= input("Quel est le record ?")
 
-
-#exercice 1 alexa
-country = input("De quelle nationalité est l'athlète ? ")
-athlete = input("C'est quoi le nom de l'athlète?")
-date = input("Quelle est la date du record?")
-discipline= input("C'est quoi sa discipline?")
-catégorie= input("Dans quelle catégorie spécifiquement?")
-record= input("Quel est son record?")
-
+print(f"\nNouveau Record:\n--------------------\n{date} - {sport} - {category}:\n\t{athlete} ({country}) - {record}\n")
 
 
