@@ -2,13 +2,13 @@
 #      Attention si la chaîne est invalide, un message d'erreur est attendu.
 
 country=input("Pays concerné ?")
-code_medals=input("Chaine représentant les médailles ?")
+code_medals=input(" Chaine représentant les médailles ? ")
 
 set1=set(code_medals)
 set2=set("G" +"S" +"B")
 
 if set1 == set2:
- print(f"""(\n- {code_medals.count("G")}) Or\n- {code_medals.count("S")} Argent\n- {code_medals.count("B")} Bronze\n""")
+ print(f"""{country}:\n- {code_medals.count("G")} Or\n- {code_medals.count("S")} Argent\n- {code_medals.count("B")} Bronze""")
 
 else:      
-    print("Ceci est une chaîne invalide. Veuillez entrer une chaîne valide")
+    print("Ceci est une chaine invalide.")

@@ -2,10 +2,10 @@
 # TODO: Importer les modules nécessaires.
 import math
 
-speed = float(input("Vitesse initiale (en m/s):"))
-angle = float(input("Angle de lancement (en degrés):"))
+speed = float(input("Vitesse initiale (m/s): "))
+angle = float(input("Angle de lancer (en degrés):"))
 gravitational_constant=9.8
 distance=((speed**2)*(math.sin(math.radians(2*angle))))/gravitational_constant
 
 distance=abs(round(distance,2))
-print(f"Distance parcourue: {distance}m\n")
+print(f" Distance parcourue: {distance}m")
