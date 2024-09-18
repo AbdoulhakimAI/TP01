@@ -8,16 +8,16 @@ battery_level = int(input("Pourcentage de batterie ?"))
 if 50<battery_level<= 100:
     print(round(battery_level*2,1),"km\n")
 
-if 25<battery_level<=50:
+elif 25<battery_level<=50:
     print(round(battery_level*0.5, 1),"km\n")
 
-if 10<battery_level<=25:
+elif 10<battery_level<=25:
     print(round(battery_level*1, 1),"km\n")
 
-if 5<battery_level<=10:
+elif 5<battery_level<=10:
     print(round(battery_level*2.5, 1),"km\n")
 
-if 0<battery_level<=5:
+elif 0<battery_level<=5:
     print(round(battery_level*6, 1),"km\n")
 
 if battery_level==0:
